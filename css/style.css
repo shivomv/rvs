@@ -1,0 +1,46 @@
+.position{
+    position: fixed;
+}
+
+.slider{
+    height: 40vw;
+}
+
+
+.idealimg{
+    height: 30vw;
+    width: auto;
+}
+.dgbtn{
+    border: 5px solid black;
+    background-color: blue;
+}
+.bg{
+    background-image: url('img/bgfrem.jpg');
+}
+
+.modal-position{
+    height: 100px;
+}
+
+@media only screen and (max-width:500px){
+.mobileview h3{
+    font-size: calc(1rem + .4vw);
+}
+.mobileview p{
+    font-size: calc(0.8rem + .2vw);
+}
+.mobileview img{
+    width: 40vw;
+    height: 45vw;
+}
+.p img{
+    margin-top: 4vw;
+}
+.a img{
+    margin-top: 10vw;
+}
+.c img{
+    margin-top: 8vw;
+}
+}

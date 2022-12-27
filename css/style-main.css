@@ -1,0 +1,231 @@
+
+/* common for all */
+.bodymain{
+    height: 120px;
+}
+header{
+    background: #ffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 10px 4vw;
+    z-index: 10000;
+}
+    
+header a .logo{
+    width: 100px;
+    height: auto; 
+}
+.sticky{
+    padding: 2vw;
+    height: 60px;
+    background: #969595;
+}
+
+.sticky .logo{
+    width: 60px;
+    height: auto; 
+}
+
+.sticky .tagline{
+ display: none;
+}
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    position: relative;
+    list-style: none;
+}
+header ul li a{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.6s;
+
+}
+
+
+
+.headname1{  
+    text-align: center;
+    letter-spacing: 1.0px;
+    margin-left: -25vw;
+}
+/* .headname2{
+    letter-spacing: 2px;
+    font-size: 2vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 0.2vw 0.1vw #FF0000;
+    margin-left: 2vw;
+    
+} */
+.mh{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3vw;
+    color: rgb(235, 69, 19);
+    text-shadow: 0.3vw 0.2vw #442810;
+    top: 0;
+}
+
+.tagline{
+    margin-left: 30vw;
+    margin: top 0;
+color: green;
+text-shadow: 0.08vw 0.12vw #77eb9e;
+    font-size: 2vw;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+.bodymain{
+    height: 80px;
+}
+header{
+    height: 80px;
+    padding: 10px 4vw;  
+}
+header a .logo{
+    width: 80px;
+    height: auto; 
+}
+.sticky{
+    padding: 2vw;
+    height: 40px;
+    background: #fff;
+}
+
+.sticky .logo{
+    width: 40px;
+    height: auto; 
+}
+
+.nodisplay1{
+    display: none;
+}
+.nodisplay3{
+    display: none;
+}
+.nodisplay2{
+    display: none;
+}
+.nodisplay{
+    display: none;
+}
+.headname1{  
+    margin-left: -4vw;
+    margin-top: 4px;
+}
+
+.mh{
+    font-size: 5vw;
+}
+
+.tagline{
+    font-size: 3vw;
+}
+  } 
+  
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+
+
+.headname1{  
+    margin-left: -40px;
+}
+
+.mh{
+    font-size: 3.5vw;
+}
+
+  } 
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+     
+header a .logo{
+    width: 100px;
+    height: auto; 
+}
+.headname1{  
+    margin-left: -50px;
+}
+
+.mh{
+    font-size: 3.5vw;
+}
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) ----------------------------*/
+  @media only screen and (min-width: 992px) {
+    .bodymain{
+        height: 140px;
+    }
+header a .logo{
+    width: 100px;
+    height: auto; 
+}
+.sticky{
+    padding: 2vw;
+    height: 60px;
+    background: #fff;
+}
+
+.sticky .logo{
+    width: 60px;
+    height: auto; 
+}
+
+.sticky .tagline{
+ display: none;
+}
+
+.headname1{  
+    margin-left: -150px;
+}
+.tagline{
+  font-size: 2vw;
+}
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .bodymain{
+        height: 150px;
+    }
+header a .logo{
+    width: 100px;
+    height: auto; 
+}
+.sticky{
+    padding: 2vw;
+    height: 70px;
+    background: #fff;
+}
+
+.sticky .logo{
+    width: 60px;
+    height: auto; 
+}
+.headname1{  
+    margin-left: -25vw;
+}
+.tagline{
+    margin-left: 30vw;
+    font-size: 2vw;
+}
+  }
+
